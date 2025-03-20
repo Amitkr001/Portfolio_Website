@@ -57,8 +57,8 @@ const NewHome: React.FC = () => {
             <div className="bg-slate-950 rounded-md p-3 mb-6 font-mono text-sm text-green-400">
               <p>$ cd portfolio</p>
               <p>$ ./explore.sh</p>
-              <p>> Hello, I'm Amit Kumar</p>
-              <p>> Type 'help' to see commands...</p>
+              <p> Hello, I'm Amit Kumar</p>
+              <p> Type 'help' to see commands...</p>
             </div>
             <Button 
               onClick={() => setSelectedVersion('terminal')}
