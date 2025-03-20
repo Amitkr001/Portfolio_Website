@@ -1223,10 +1223,10 @@ const solveProblems = (
                     <div>
                       <p className="text-sm text-gray-400">Email</p>
                       <a
-                        href="mailto:contact@amitkumar.dev"
+                        href="mailto:amitkrr001@gmail.com"
                         className="text-white hover:text-primary transition-colors"
                       >
-                        contact@amitkumar.dev
+                       amitkrr001@gmail.com
                       </a>
                     </div>
                   </div>
@@ -1235,12 +1235,12 @@ const solveProblems = (
                     <div>
                       <p className="text-sm text-gray-400">GitHub</p>
                       <a
-                        href="https://github.com"
+                        href="https://github.com/Amitkr001"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white hover:text-primary transition-colors"
                       >
-                        github.com/amitkumar
+                        https://github.com/Amitkr001
                       </a>
                     </div>
                   </div>
@@ -1258,7 +1258,7 @@ const solveProblems = (
                 <div className="flex space-x-4">
                   {/* Social media icons */}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/amitkr001"
                     className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all"
                   >
                     <svg

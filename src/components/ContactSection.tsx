@@ -59,22 +59,17 @@ const ContactSection = ({ id = "contact" }: ContactSectionProps) => {
     {
       icon: <Github size={24} />,
       label: "GitHub",
-      url: "https://github.com/amitkumar",
+      url: "https://github.com/Amitkr001",
     },
     {
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/amitkumar",
-    },
-    {
-      icon: <Twitter size={24} />,
-      label: "Twitter",
-      url: "https://twitter.com/amitkumar",
+      url: "https://www.linkedin.com/in/amitkr001",
     },
     {
       icon: <Mail size={24} />,
       label: "Email",
-      url: "mailto:amit@example.com",
+      url: "amitkrr001@gmail.com",
     },
   ];
 
