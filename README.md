@@ -1,6 +1,3 @@
-Your GitHub portfolio README file should reflect your skills, projects, and experience as mentioned in your resume. Here’s an updated version incorporating details from your resume:  
-
----
 
 # Portfolio Website  
 
@@ -25,11 +22,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:  
    ```sh  
-   git clone https://github.com/Amitkr001/portfolio.git  
+   git clone https://github.com/Amitkr001/Portfolio_Website.git  
    ```  
 2. Navigate to the project directory:  
    ```sh  
-   cd portfolio  
+   cd portfolio_website
    ```  
 3. Install dependencies:  
    ```sh  
@@ -74,8 +71,3 @@ If you have any questions or want to connect, feel free to reach out:
 - 📧 Email: [amitkrr001@gmail.com](mailto:amitkrr001@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/amitkr001](https://www.linkedin.com/in/amitkr001)  
 - 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-
----  
-⭐ If you find this repository useful, don’t forget to **star** it!  
-
-Let me know if you need any modifications! 🚀
