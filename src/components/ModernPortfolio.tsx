@@ -26,12 +26,12 @@ const ModernPortfolio: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: " E-Sports Platform",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+        "A competitive gaming platform enabling users to participate in tournaments, view leaderboards, and connect with fellow gamers.",
       tags: ["React", "Node.js", "MongoDB", "Redux"],
       image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
+        "./",
       link: "https://github.com",
       demo: "https://example.com",
     },
