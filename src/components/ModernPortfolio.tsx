@@ -26,35 +26,44 @@ const ModernPortfolio: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: " E-Sports Platform",
+      title: "E-Sport Platform",
       description:
-        "A competitive gaming platform enabling users to participate in tournaments, view leaderboards, and connect with fellow gamers.",
-      tags: ["React", "Node.js", "MongoDB", "Redux"],
+        "Led full-cycle development of an E-sport platform including design, implementation, and deployment. Conducted rigorous testing and debugging with Postman, ensuring 99.9% uptime.",
+      tags: [
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "React",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+      ],
       image:
-        "./",
-      link: "https://github.com",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+      link: "https://github.com/Amitkr001/E-Sports-Project",
       demo: "https://example.com",
     },
     {
       id: 2,
-      title: "AI Content Generator",
+      title: "PayMe",
       description:
-        "An AI-powered application that generates content based on user prompts",
-      tags: ["React", "OpenAI API", "TypeScript", "Tailwind"],
+        "Owned PayMe's development, from architecture to deployment. Boosted user satisfaction by 30% and daily active users by 20%. Built backend services with Node.js and Express.js, ensuring efficient data processing.",
+      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
       image:
-        "https://images.unsplash.com/photo-1677442135136-760c813a743d?w=800&q=80",
-      link: "https://github.com",
+        "https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?w=800&q=80",
+      link: "https://github.com/Amitkr001/PayMe",
       demo: "https://example.com",
     },
     {
       id: 3,
-      title: "Real-time Analytics Dashboard",
+      title: "Sports News App",
       description:
-        "A dashboard for monitoring real-time data with interactive visualizations",
-      tags: ["React", "D3.js", "WebSockets", "Firebase"],
+        "Developed a Sports News App in Kotlin with SlidingPanelLayout, implementing a list-detail pattern for tablets. Added custom back navigation and locked sliding.",
+      tags: ["Kotlin", "Material Design", "REST API"],
       image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-      link: "https://github.com",
+        "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+      link: "https://github.com/Amitkr001/Sports-App-News",
       demo: "https://example.com",
     },
   ];
@@ -62,33 +71,20 @@ const ModernPortfolio: React.FC = () => {
   // Skills data
   const skills = [
     {
-      name: "Frontend",
-      items: [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Framer Motion",
-      ],
+      name: "Frontend Frameworks",
+      items: ["React.js", "Tailwind CSS"],
     },
     {
-      name: "Backend",
-      items: [
-        "Node.js",
-        "Express",
-        "GraphQL",
-        "REST APIs",
-        "MongoDB",
-        "PostgreSQL",
-      ],
+      name: "Backend Technologies",
+      items: ["Node.js", "Express.js", "MongoDB"],
     },
     {
-      name: "DevOps",
-      items: ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform"],
+      name: "Programming Languages",
+      items: ["JavaScript", "C++", "Kotlin"],
     },
     {
       name: "Tools",
-      items: ["Git", "Figma", "VS Code", "Postman", "Jest", "Cypress"],
+      items: ["Git", "Postman", "Android Studio", "VS Code"],
     },
   ];
 
@@ -96,38 +92,53 @@ const ModernPortfolio: React.FC = () => {
   const competitiveProgramming = [
     {
       platform: "LeetCode",
-      username: "amitkumar",
+      username: "amitoo1",
       stats: {
-        ranking: "Top 5%",
-        problemsSolved: 450,
-        contestRating: 1850,
+        ranking: "Top Performer",
+        problemsSolved: 500,
+        contestRating: 1600,
       },
-      badges: ["Daily Streak 100+", "Weekly Contest Top 10%"],
-      profileUrl: "https://leetcode.com/",
+      badges: [
+        "15+ DSA Contests",
+        "180+ Easy Problems",
+        "200+ Medium Problems",
+        "50+ Hard Problems",
+      ],
+      profileUrl: "https://leetcode.com/u/amitoo1/",
       logo: "https://assets.leetcode.com/static_assets/public/icons/favicon-192x192.png",
     },
     {
-      platform: "CodeForces",
-      username: "amit_kumar",
+      platform: "GeeksforGeeks",
+      username: "amitkr001",
       stats: {
-        ranking: "Specialist",
-        problemsSolved: 320,
-        contestRating: 1650,
+        ranking: "Institute Rank",
+        problemsSolved: 300,
+        contestRating: 1500,
       },
-      badges: ["Div 2 Winner"],
-      profileUrl: "https://codeforces.com/",
-      logo: "https://codeforces.org/s/0/favicon-192x192.png",
+      badges: [
+        "10+ Contests",
+        "150+ Easy Problems",
+        "120+ Medium Problems",
+        "30+ Hard Problems",
+      ],
+      profileUrl: "https://auth.geeksforgeeks.org/user/amitkr001",
+      logo: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
     },
     {
       platform: "CodeChef",
-      username: "amit_k",
+      username: "amitkr001",
       stats: {
-        ranking: "4 Star",
-        problemsSolved: 280,
-        contestRating: 1780,
+        ranking: "3 Star",
+        problemsSolved: 200,
+        contestRating: 1700,
       },
-      badges: ["Long Challenge Top 100"],
-      profileUrl: "https://www.codechef.com/",
+      badges: [
+        "8+ Long Challenges",
+        "12+ Cook-Offs",
+        "10+ Lunchtime",
+        "5+ Starters",
+      ],
+      profileUrl: "https://www.codechef.com/users/amitkr001",
       logo: "https://cdn.codechef.com/sites/default/files/uploads/pictures/811b20a47eac52b10c90ab82e0628e21.png",
     },
   ];
@@ -135,25 +146,25 @@ const ModernPortfolio: React.FC = () => {
   // Experience data
   const experiences = [
     {
-      company: "Tech Innovations Inc.",
-      role: "Senior Frontend Developer",
-      period: "2021 - Present",
-      description:
-        "Leading the frontend development team, implementing modern UI/UX designs, and optimizing application performance.",
-    },
-    {
-      company: "Digital Solutions Ltd.",
+      company: "E-Sport Platform Project",
       role: "Full Stack Developer",
-      period: "2018 - 2021",
+      period: "2023",
       description:
-        "Developed and maintained full-stack applications using React, Node.js, and MongoDB. Implemented CI/CD pipelines.",
+        "Led full-cycle development of an E-sport platform including design, implementation, and deployment. Conducted rigorous testing and debugging with Postman, ensuring 99.9% uptime.",
     },
     {
-      company: "WebCraft Studios",
-      role: "Junior Developer",
-      period: "2016 - 2018",
+      company: "PayMe Project",
+      role: "Full Stack Developer",
+      period: "2022",
       description:
-        "Assisted in developing responsive websites and web applications. Collaborated with designers to implement UI components.",
+        "Owned PayMe's development, from architecture to deployment. Boosted user satisfaction by 30% and daily active users by 20%. Built backend services with Node.js and Express.js, ensuring efficient data processing.",
+    },
+    {
+      company: "Sports News App Project",
+      role: "Android Developer",
+      period: "2021",
+      description:
+        "Developed a Sports News App in Kotlin with SlidingPanelLayout, implementing a list-detail pattern for tablets. Added custom back navigation and locked sliding.",
     },
   ];
 
@@ -318,22 +329,22 @@ const ModernPortfolio: React.FC = () => {
                           "Available commands:\n- about: Learn about me\n- skills: List my technical skills\n- projects: View my projects\n- experience: See my work experience\n- education: View my education\n- contact: How to reach me\n- resume: Download my resume\n- clear: Clear the terminal\n- exit: Close the terminal";
                       } else if (command === "about") {
                         response =
-                          "Amit Kumar - Software Engineer & Problem Solver\nI build exceptional digital experiences with modern technologies.\nSpecializing in creating scalable, user-friendly applications that solve real-world problems.";
+                          "Amit Kumar - Software Engineer & Problem Solver\nFinal-year B.Tech student with strong skills in full-stack web and app development,\nproficient in JavaScript, React, Node.js, and Kotlin for Android app development.\nProven problem-solving abilities demonstrated through a 1600+ LeetCode rating (500+ questions solved).";
                       } else if (command === "skills") {
                         response =
-                          "Technical Skills:\n- Frontend: React, Next.js, TypeScript, Tailwind CSS, Framer Motion\n- Backend: Node.js, Express, GraphQL, REST APIs, MongoDB, PostgreSQL\n- DevOps: Docker, AWS, CI/CD, Kubernetes, Terraform\n- Tools: Git, Figma, VS Code, Postman, Jest, Cypress";
+                          "Technical Skills:\n- Frontend Frameworks: React.js, Tailwind CSS\n- Backend Technologies: Node.js, Express.js, MongoDB\n- Programming Languages: JavaScript, C++, Kotlin\n- Tools: Git, Postman, Android Studio, VS Code";
                       } else if (command === "projects") {
                         response =
-                          "Featured Projects:\n- E-Commerce Platform: A full-stack e-commerce solution with React, Node.js, and MongoDB\n- AI Content Generator: An AI-powered application that generates content based on user prompts\n- Real-time Analytics Dashboard: A dashboard for monitoring real-time data with interactive visualizations";
+                          "Featured Projects:\n- E-Sport Platform: Led full-cycle development of an E-sport platform including design, implementation, and deployment.\n- PayMe: Owned PayMe's development, from architecture to deployment. Boosted user satisfaction by 30% and daily active users by 20%.\n- Sports News App: Developed a Sports News App in Kotlin with SlidingPanelLayout, implementing a list-detail pattern for tablets.";
                       } else if (command === "experience") {
                         response =
-                          "Work Experience:\n- Senior Frontend Developer at Tech Innovations Inc. (2021 - Present)\n- Full Stack Developer at Digital Solutions Ltd. (2018 - 2021)\n- Junior Developer at WebCraft Studios (2016 - 2018)";
+                          "Work Experience:\n- Full Stack Developer - E-Sport Platform Project (2023)\n- Full Stack Developer - PayMe Project (2022)\n- Android Developer - Sports News App Project (2021)";
                       } else if (command === "education") {
                         response =
-                          "Education:\n- Master of Computer Science, Stanford University (2018 - 2020)\n- Bachelor of Science in Computer Engineering, MIT (2014 - 2018)\n- Various Professional Certifications (2018 - Present)";
+                          "Education:\n- B.Tech in Computer Science and Engineering, Technocrats Institute of Technology (2022 - 2025)\n- Diploma in Computer Science and Engineering, Government Polytechnic Purnea (2019 - 2022)\n- Various Certifications including IBM Bootcamp and Cisco Code Rider C++ (2019 - Present)";
                       } else if (command === "contact") {
                         response =
-                          "Contact Information:\n- Email: contact@amitkumar.dev\n- GitHub: github.com/amitkumar";
+                          "Contact Information:\n- Email: amitkrr001@gmail.com\n- Phone: +91 7499373193\n- GitHub: github.com/Amitkr001\n- LeetCode: leetcode.com/u/amitoo1/\n- GeeksforGeeks: auth.geeksforgeeks.org/user/amitkr001\n- CodeChef: codechef.com/users/amitkr001\n- LinkedIn: linkedin.com/in/amitkr001";
                       } else if (command === "resume") {
                         response = "Downloading resume...";
                         setTimeout(() => {
@@ -567,9 +578,11 @@ const ModernPortfolio: React.FC = () => {
                 Software Engineer & Problem Solver
               </h2>
               <p className="text-lg text-gray-300 mb-8 max-w-lg">
-                I build exceptional digital experiences with modern
-                technologies. Specializing in creating scalable, user-friendly
-                applications that solve real-world problems.
+                Final-year B.Tech student with strong skills in full-stack web
+                and app development, proficient in JavaScript, React, Node.js,
+                and Kotlin for Android app development. Proven problem-solving
+                abilities demonstrated through a 1600+ LeetCode rating (500+
+                questions solved).
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button
@@ -597,6 +610,23 @@ const ModernPortfolio: React.FC = () => {
               <div className="relative w-full h-[500px]">
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-blue-500/20 filter blur-3xl"></div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -translate-x-20 w-64 h-64 rounded-full bg-purple-500/20 filter blur-3xl"></div>
+
+                {/* Profile Image */}
+                <motion.div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1, delay: 0.5 }}
+                >
+                  <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary shadow-lg shadow-blue-500/20">
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+                      alt="Amit Kumar"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                  </div>
+                </motion.div>
 
                 {/* Code snippets floating */}
                 <motion.div
@@ -756,7 +786,9 @@ const solveProblems = (
             className="text-center mt-12"
           >
             <Button
-              onClick={() => window.open("https://github.com", "_blank")}
+              onClick={() =>
+                window.open("https://github.com/Amitkr001", "_blank")
+              }
               variant="outline"
               className="border-gray-700 text-gray-300 hover:text-white"
             >
@@ -923,7 +955,9 @@ const solveProblems = (
               programming, graph algorithms, and data structures.
             </p>
             <Button
-              onClick={() => window.open("https://leetcode.com/", "_blank")}
+              onClick={() =>
+                window.open("https://leetcode.com/u/amitoo1/", "_blank")
+              }
               variant="outline"
               className="border-gray-700 text-gray-300 hover:text-white"
             >
@@ -1006,25 +1040,21 @@ const solveProblems = (
               <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary border-4 border-black"></div>
               <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 border border-slate-800 hover:border-primary/50 transition-all duration-300">
                 <h3 className="text-xl font-bold text-white">
-                  Master of Computer Science
+                  B.Tech in Computer Science and Engineering
                 </h3>
                 <div className="flex justify-between items-center mb-4">
-                  <span className="text-primary">Stanford University</span>
-                  <span className="text-gray-500 text-sm">2018 - 2020</span>
+                  <span className="text-primary">
+                    Technocrats Institute of Technology
+                  </span>
+                  <span className="text-gray-500 text-sm">2022 - 2025</span>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Specialized in Artificial Intelligence and Machine Learning
-                  with a focus on Natural Language Processing.
+                  Studying Computer Science with a focus on software development
+                  and algorithms.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    GPA: 3.9/4.0
-                  </span>
-                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    Dean's List
-                  </span>
-                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    Research Assistant
+                    CGPA: 7.6/10
                   </span>
                 </div>
               </div>
@@ -1040,28 +1070,21 @@ const solveProblems = (
               <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary border-4 border-black"></div>
               <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 border border-slate-800 hover:border-primary/50 transition-all duration-300">
                 <h3 className="text-xl font-bold text-white">
-                  Bachelor of Science in Computer Engineering
+                  Diploma in Computer Science and Engineering
                 </h3>
                 <div className="flex justify-between items-center mb-4">
                   <span className="text-primary">
-                    Massachusetts Institute of Technology
+                    Government Polytechnic Purnea
                   </span>
-                  <span className="text-gray-500 text-sm">2014 - 2018</span>
+                  <span className="text-gray-500 text-sm">2019 - 2022</span>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Graduated with honors. Completed coursework in Data
-                  Structures, Algorithms, Computer Architecture, and Software
-                  Engineering.
+                  Completed diploma with focus on computer science fundamentals
+                  and programming.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    GPA: 3.8/4.0
-                  </span>
-                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    Cum Laude
-                  </span>
-                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    Hackathon Winner
+                    CGPA: 8.51/10
                   </span>
                 </div>
               </div>
@@ -1077,28 +1100,40 @@ const solveProblems = (
               <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary border-4 border-black"></div>
               <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 border border-slate-800 hover:border-primary/50 transition-all duration-300">
                 <h3 className="text-xl font-bold text-white">
-                  Certifications & Continuous Learning
+                  Certifications & Coursework
                 </h3>
                 <div className="flex justify-between items-center mb-4">
                   <span className="text-primary">Various Platforms</span>
-                  <span className="text-gray-500 text-sm">2018 - Present</span>
+                  <span className="text-gray-500 text-sm">2019 - Present</span>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Continuously expanding my knowledge through professional
-                  certifications and online courses.
+                  Expanding my knowledge through professional certifications and
+                  coursework.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    AWS Certified Solutions Architect
+                    IBM Bootcamp
                   </span>
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    Google Cloud Professional
+                    Cisco Code Rider C++
                   </span>
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    TensorFlow Developer
+                    Data Structures and Algorithms
                   </span>
                   <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
-                    React Advanced Patterns
+                    Operating Systems
+                  </span>
+                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
+                    Database Management Systems
+                  </span>
+                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
+                    Software Engineering
+                  </span>
+                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
+                    Web Development
+                  </span>
+                  <span className="text-xs bg-slate-800 text-blue-400 px-2 py-1 rounded-full">
+                    Computer Networks
                   </span>
                 </div>
               </div>
@@ -1226,7 +1261,7 @@ const solveProblems = (
                         href="mailto:amitkrr001@gmail.com"
                         className="text-white hover:text-primary transition-colors"
                       >
-                       amitkrr001@gmail.com
+                        amitkrr001@gmail.com
                       </a>
                     </div>
                   </div>
@@ -1240,7 +1275,61 @@ const solveProblems = (
                         rel="noopener noreferrer"
                         className="text-white hover:text-primary transition-colors"
                       >
-                        https://github.com/Amitkr001
+                        github.com/Amitkr001
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <Code className="text-primary mt-1 mr-4" />
+                    <div>
+                      <p className="text-sm text-gray-400">LeetCode</p>
+                      <a
+                        href="https://leetcode.com/u/amitoo1/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-primary transition-colors"
+                      >
+                        leetcode.com/u/amitoo1/
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <Code className="text-primary mt-1 mr-4" />
+                    <div>
+                      <p className="text-sm text-gray-400">GeeksforGeeks</p>
+                      <a
+                        href="https://auth.geeksforgeeks.org/user/amitkr001"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-primary transition-colors"
+                      >
+                        auth.geeksforgeeks.org/user/amitkr001
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <Code className="text-primary mt-1 mr-4" />
+                    <div>
+                      <p className="text-sm text-gray-400">CodeChef</p>
+                      <a
+                        href="https://www.codechef.com/users/amitkr001"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-primary transition-colors"
+                      >
+                        codechef.com/users/amitkr001
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <Mail className="text-primary mt-1 mr-4" />
+                    <div>
+                      <p className="text-sm text-gray-400">Phone</p>
+                      <a
+                        href="tel:+917499373193"
+                        className="text-white hover:text-primary transition-colors"
+                      >
+                        +91 7499373193
                       </a>
                     </div>
                   </div>
