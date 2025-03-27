@@ -594,7 +594,7 @@ const ModernPortfolio: React.FC = () => {
                 <Button
                   onClick={() => scrollToSection("contact")}
                   variant="outline"
-                  className="border-gray-600 text-gray-300 hover:text-white px-8 py-3"
+                  className="border-gray-600 text-blue-950 hover:text-green px-8 py-3"
                 >
                   Contact Me
                 </Button>
@@ -790,7 +790,7 @@ const solveProblems = (
                 window.open("https://github.com/Amitkr001", "_blank")
               }
               variant="outline"
-              className="border-gray-700 text-gray-300 hover:text-white"
+              className="border-gray-700 text-blue-950 hover:text-green"
             >
               View All Projects <Github className="ml-2 h-4 w-4" />
             </Button>
@@ -959,7 +959,7 @@ const solveProblems = (
                 window.open("https://leetcode.com/u/amitoo1/", "_blank")
               }
               variant="outline"
-              className="border-gray-700 text-gray-300 hover:text-white"
+              className="border-gray-700 text-blue-950 hover:text-green"
             >
               <Code className="mr-2 h-4 w-4" /> View Latest Solutions
             </Button>
