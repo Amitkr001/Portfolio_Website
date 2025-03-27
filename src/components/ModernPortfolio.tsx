@@ -620,7 +620,7 @@ const ModernPortfolio: React.FC = () => {
                 >
                   <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary shadow-lg shadow-blue-500/20">
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+                      src="./profile.png"
                       alt="Amit Kumar"
                       className="w-full h-full object-cover"
                     />
