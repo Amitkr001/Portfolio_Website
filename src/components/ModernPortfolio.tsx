@@ -411,7 +411,7 @@ const ModernPortfolio: React.FC = () => {
       {/* Custom cursor */}
       <div
         ref={cursorRef}
-        className="fixed w-10 h-10 rounded-full border-2 border-primary pointer-events-none z-50 "
+        className="fixed w-8 h-8 rounded-full border-2 border-blue-600 pointer-events-none z-50 mix-blend-difference"
         style={{
           transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)`,
           transition: "transform 0.1s ease-out",
@@ -444,7 +444,7 @@ const ModernPortfolio: React.FC = () => {
               <motion.button
                 key={section}
                 onClick={() => scrollToSection(section)}
-                className={`text-sm uppercase tracking-wider ${activeSection === section ? "text-primary" : "text-gray-400"} hover:text-primary transition-colors`}
+                className={`text-sm uppercase tracking-wider ${activeSection === section ? "text-primary" : "text-gray-100"} hover:text-blue-400 transition-colors`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
