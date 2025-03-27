@@ -78,36 +78,43 @@ const TerminalSection: React.FC = () => {
     } else if (cmd === "about") {
       response = [
         "Amit Kumar - Software Engineer & Problem Solver",
-        "I build exceptional digital experiences with modern technologies.",
-        "Specializing in creating scalable, user-friendly applications that solve real-world problems.",
+        "Final-year B.Tech student with strong skills in full-stack web and app development,",
+        "proficient in JavaScript, React, Node.js, and Kotlin for Android app development.",
+        "Proven problem-solving abilities demonstrated through a 1600+ LeetCode rating (500+ questions solved).",
       ];
     } else if (cmd === "skills") {
       response = [
         "Technical Skills:",
-        "- Frontend: React, Next.js, TypeScript, Tailwind CSS, Framer Motion",
-        "- Backend: Node.js, Express, GraphQL, REST APIs, MongoDB, PostgreSQL",
-        "- DevOps: Docker, AWS, CI/CD, Kubernetes, Terraform",
-        "- Tools: Git, Figma, VS Code, Postman, Jest, Cypress",
+        "- Frontend Frameworks: React.js, Tailwind CSS",
+        "- Backend Technologies: Node.js, Express.js, MongoDB",
+        "- Programming Languages: JavaScript, C++, Kotlin",
+        "- Tools: Git, Postman, Android Studio, VS Code",
+        "- Competitive Programming: LeetCode (1600+), GeeksforGeeks, CodeChef (3★)",
       ];
     } else if (cmd === "projects") {
       response = [
         "Featured Projects:",
-        "- E-Commerce Platform: A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        "- AI Content Generator: An AI-powered application that generates content based on user prompts",
-        "- Real-time Analytics Dashboard: A dashboard for monitoring real-time data with interactive visualizations",
+        "- E-Sport Platform: Led full-cycle development of an E-sport platform including design, implementation, and deployment.",
+        "- PayMe: Owned PayMe's development, from architecture to deployment. Boosted user satisfaction by 30% and daily active users by 20%.",
+        "- Sports News App: Developed a Sports News App in Kotlin with SlidingPanelLayout, implementing a list-detail pattern for tablets.",
       ];
     } else if (cmd === "experience") {
       response = [
         "Work Experience:",
-        "- Senior Frontend Developer at Tech Innovations Inc. (2021 - Present)",
-        "- Full Stack Developer at Digital Solutions Ltd. (2018 - 2021)",
-        "- Junior Developer at WebCraft Studios (2016 - 2018)",
+        "- Full Stack Developer - E-Sport Platform Project (2023)",
+        "- Full Stack Developer - PayMe Project (2022)",
+        "- Android Developer - Sports News App Project (2021)",
       ];
     } else if (cmd === "contact") {
       response = [
         "Contact Information:",
-        "- Email: contact@amitkumar.dev",
-        "- GitHub: github.com/amitkumar",
+        "- Email: amitkrr001@gmail.com",
+        "- Phone: +91 7499373193",
+        "- GitHub: github.com/Amitkr001",
+        "- LeetCode: leetcode.com/u/amitoo1/",
+        "- GeeksforGeeks: auth.geeksforgeeks.org/user/amitkr001",
+        "- CodeChef: codechef.com/users/amitkr001",
+        "- LinkedIn: linkedin.com/in/amitkr001",
       ];
     } else if (cmd === "resume") {
       response = "Downloading resume...";
