@@ -411,7 +411,7 @@ const ModernPortfolio: React.FC = () => {
       {/* Custom cursor */}
       <div
         ref={cursorRef}
-        className="fixed w-8 h-8 rounded-full border-2 border-primary pointer-events-none z-50 mix-blend-difference"
+        className="fixed w-10 h-10 rounded-full border-2 border-primary pointer-events-none z-50 "
         style={{
           transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)`,
           transition: "transform 0.1s ease-out",
